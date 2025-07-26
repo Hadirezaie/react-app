@@ -6,7 +6,8 @@ function App() {
 
   return (
     <>  
-     <Post/>
+     <Post author='HadiRezaie' body='React programming is a good fun!'/>
+     <Post author='AliRezaie' body='I Love react programmin!'/>
     </>
   )
 }
