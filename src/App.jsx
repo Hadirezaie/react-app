@@ -1,15 +1,11 @@
-
-import './App.css'
-import Post from './components/Post'
+import PostsList from './components/PostList';
 
 function App() {
-
   return (
-    <>  
-     <Post author='HadiRezaie' body='React programming is a good fun!'/>
-     <Post author='AliRezaie' body='I Love react programmin!'/>
-    </>
-  )
+    <main>
+      <PostsList />
+    </main>
+  );
 }
 
-export default App
+export default App;
